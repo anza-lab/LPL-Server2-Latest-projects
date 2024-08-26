@@ -1,0 +1,1005 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Documents_Path&StateMachine_1",
+        "StartTime&StateMachine_1",
+        "EndTime&StateMachine_1",
+        "Logoutexists&Sequence_30",
+        "StatusRowindex&StateMachine_1",
+        "EndTime&Sequence_47",
+        "Reportpath&StateMachine_1",
+        "StatusTrackerpath&StateMachine_1",
+        "StatusTracker_DT&StateMachine_1",
+        "Final_DT&StateMachine_1",
+        "AHT&StateMachine_1",
+        "TimeDiff&StateMachine_1",
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "HoowlaUsername&StateMachine_1",
+        "HoowlaPassword&StateMachine_1",
+        "LMSUsername&StateMachine_1",
+        "LMSPassword&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder",
+        "in_config",
+        "Clientcasestatusdetails"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Appstokill&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Appstokill",
+        "in_config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hoowla Portal login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "variable1&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_HoowlaPassword",
+        "in_HoowlaUsername",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetAppCredentials.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&",
+        "SystemException&",
+        "BusinessException&",
+        "TransactionNumber&",
+        "Config&",
+        "RetryNumber&",
+        "TransactionField2&",
+        "TransactionField1&",
+        "TransactionID&",
+        "dt_TransactionData&",
+        "ConsecutiveSystemExceptions&",
+        "HoowlaUsername&",
+        "HoowlaPassword&",
+        "LMSUsername&",
+        "LMSPassword&",
+        "TimeDiff&",
+        "AHT&",
+        "StartTime&",
+        "Final_DT&",
+        "Reportpath&",
+        "StatusTrackerpath&",
+        "StatusTracker_DT&",
+        "StatusRowindex&",
+        "EndTime&",
+        "Documents_Path&",
+        "ShouldStop&",
+        "Logoutexists&",
+        "EndTime&"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_Username",
+        "in_Credential",
+        "out_Password"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LMS Portal Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_LMSPassword",
+        "in_LMSUsername",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "variable1&Sequence_9",
+        "DT_LMSout&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Initial_StartTime",
+        "Clientcasestatusdetails",
+        "Out_LMSPassword",
+        "Out_LMSUsername",
+        "Out_HoowlaPassword",
+        "Out_HoowlaUsername",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Charge Registration Download docs.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "edrsuploadpath&Sequence_1",
+        "Rcounter&Sequence_1",
+        "downloadfilepath&Sequence_1",
+        "lmsReference&Sequence_1",
+        "dt_servicerreferncenumber&Sequence_1",
+        "ExtractDataTable&Sequence_4",
+        "edrsuploadpath&Sequence_13",
+        "Addworkflowexists&Sequence_27",
+        "generateformexists&Sequence_31",
+        "Showdocumentexist&Sequence_32"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "dt_registerdata"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LMS data adding to the queue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "calendar days.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hoowla Files/Charge Registration and document download sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Out_Addworkflowexists&Sequence_1",
+        "Completion_DocExists&Sequence_1",
+        "AHT&Sequence_1",
+        "EndTime&Sequence_1",
+        "ApplicationtoregisterExists&Sequence_1",
+        "Showdocumentexist&Sequence_1",
+        "onholdExist&Sequence_1",
+        "EDRSDocument&Sequence_1",
+        "Edrsdocumentcreateddate&Sequence_1",
+        "Completiondate&Sequence_1",
+        "onholdExist&TryCatch_3",
+        "TimeDiff&Sequence_1",
+        "downloadfilepath&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "StartTime",
+        "in_StatusRowindex",
+        "io_StatusTrackerDT",
+        "FeeEarnerName",
+        "edrsap1exists",
+        "CustmerAddress",
+        "delayreason"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "charge registration reason.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DelayExpirydate&Sequence_1",
+        "NofilesfoundExists&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "CRDStatus",
+        "BotStatus",
+        "Comment",
+        "Status",
+        "CaseStatus"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "completion documents uploading.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Fileuploadpath&Sequence_1",
+        "EndTime&Sequence_1",
+        "AHT&Sequence_1",
+        "TimeDiff&Sequence_1",
+        "uploaddata&Sequence_1",
+        "ExtractDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "StartTime",
+        "in_Config",
+        "in_StatusRowindex",
+        "io_StatusTrackerDT"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "client validation hoowla.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractedhoowlaclientData&Sequence_1",
+        "outdata1&Sequence_1",
+        "clientrowcounter&Sequence_1",
+        "elementcasecounter&Sequence_1",
+        "clientoneFTname&Sequence_1",
+        "ClientoneMDname&Sequence_1",
+        "ClientoneLTname&Sequence_1",
+        "clienttwoFTname&Sequence_1",
+        "clienttwoMDname&Sequence_1",
+        "clienttwoLTname&Sequence_1",
+        "hoowlasearchclient&Sequence_6",
+        "hoowlasearchAddress&Sequence_6",
+        "HoowlaRowExist&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Hoowlacaseopened",
+        "Out_lmssernumber",
+        "Clientone",
+        "ClientTwo",
+        "Out_LMSpostcode",
+        "Conveyedaddress"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hoowla postcode search.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": [
+        "Out_AddWorkflowEXIST",
+        "Out_LMSpostcode",
+        "Hoowlacasenumber",
+        "dt_registerdata"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hoowla service reference number search.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "rowcounter&Sequence_1",
+        "lmsReference&Sequence_1",
+        "dt_servicerreferncenumber&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Out_lmssernumber1",
+        "Out_AddWorkflowEXIST",
+        "dt_registerdata",
+        "HoowlaCaseOpened",
+        "Out_lmssernumber",
+        "Clientone",
+        "ClientTwo",
+        "Out_LMSpostcode",
+        "Conveyedaddress"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LMS Case details.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "lmscasedetails&Sequence_1",
+        "clientnames&Sequence_1",
+        "LmsservicerefNumber&Sequence_1",
+        "clientsR&Sequence_1",
+        "ClientRX&Sequence_1",
+        "ClientRX1&Sequence_1",
+        "Lmsservicerrefnumber&Sequence_1",
+        "LMSSerREFnumber&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Out_lmssernumberextratext",
+        "Out_lmssernumber1",
+        "Out_lmssernumber",
+        "Clientone",
+        "ClientTwo",
+        "Out_LMSpostcode",
+        "Conveyedaddress"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Deleting uploaded documents.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "filepath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "StartTime&Sequence_1",
+        "LmsReference&Sequence_1",
+        "LmsClient&Sequence_1",
+        "LMSPostcode&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_StatusRowindex",
+        "io_StatusTrackerDT",
+        "in_TransactionItem",
+        "in_Config",
+        "io_TransactionNumber",
+        "Clientcasestatusdetails"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LMS Charge Registration Performer.old.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Process&Sequence_251",
+        "BotName&Sequence_251",
+        "TimeDiff&Sequence_251",
+        "Final_DT&Sequence_251",
+        "AHT&Sequence_251",
+        "FeeEarnerName&Flowchart_1",
+        "AHT&Sequence_10",
+        "Final_DT&Sequence_10",
+        "TimeDiff&Sequence_10",
+        "LMSCASEOPENED&Flowchart_1",
+        "lmsreference&Flowchart_1",
+        "LMSSERrefnumber&Flowchart_1",
+        "LMSclientone&Flowchart_1",
+        "lmsclienttwo&Flowchart_1",
+        "LMSpostcode&Flowchart_1",
+        "LMSconveyedaddress&Flowchart_1",
+        "LMSsernumber&Flowchart_1",
+        "Clientcasestatusdetails&Flowchart_1",
+        "Date1&Flowchart_1",
+        "Endtime&Flowchart_1",
+        "clientnames&Flowchart_1",
+        "HoowlaCaseOpened&Flowchart_1",
+        "delayreason&Flowchart_1",
+        "Out_lmssernumber&Flowchart_1",
+        "Documents&Flowchart_1",
+        "Server_IP&Flowchart_1",
+        "License&Flowchart_1",
+        "Hoowlarefnumber&Flowchart_1",
+        "PropertyAddress&Flowchart_1",
+        "CustmerAddress&Flowchart_1",
+        "Triggered_By&Flowchart_1",
+        "Process&Sequence_10",
+        "BotName&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "StartTime",
+        "dt_registerdata",
+        "in_LMSReference",
+        "in_Config",
+        "in_LmsClient",
+        "in_LmsPostcode",
+        "TransactionNumber",
+        "Clientcasestatusdetails",
+        "Remark",
+        "CRDStatus",
+        "BotStatus",
+        "Status",
+        "Comment",
+        "CaseStatus",
+        "Documents"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Case search sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "lmsReference&Sequence_1",
+        "dt_servicerreferncenumber&Sequence_1",
+        "Rcounter&Sequence_1",
+        "edrsuploadpath&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "lmsReference",
+        "Out_AddWorkflowEXIST",
+        "ClientTwo",
+        "Clientone",
+        "Out_lmssernumber",
+        "Conveyedaddress",
+        "dt_registerdata",
+        "Out_LMSpostcode"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Performer Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "go to home page sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hoowla postcode _Search.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "rowcounter&Sequence_1",
+        "lmsReference&Sequence_1",
+        "dt_servicerreferncenumber&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Out_lmssernumber",
+        "Clientone",
+        "ClientTwo",
+        "Out_LMSpostcode",
+        "Conveyedaddress",
+        "Out_AddWorkflowEXIST",
+        "dt_registerdata",
+        "HoowlaCaseOpened"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "mail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "EndTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "StartTime",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/SetTransactionStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueRetry&Sequence_17",
+        "ScreenshotPath&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_BusinessException",
+        "in_TransactionField1",
+        "in_TransactionField2",
+        "in_TransactionID",
+        "in_SystemException",
+        "in_Config",
+        "in_TransactionItem",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "io_ConsecutiveSystemExceptions"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Ap1submission validation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "edrstrue&Sequence_1",
+        "EdrsApplicationsubmitted&TryCatch_2",
+        "is_onholdexists&TryCatch_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "CRDStatus",
+        "BotStatus",
+        "BotRunStatus",
+        "edrsap1exists",
+        "Comment",
+        "Status",
+        "CaseStatus",
+        "Documents",
+        "onholdExist",
+        "CompletionDatenew",
+        "Edrsdocumentcreateddate",
+        "Completiondate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LMS Files/Charge registration Delay reason Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DelayExpirydate&Sequence_1",
+        "CRDelayExpirydate&Sequence_1",
+        "ApplicationtoregisterExists&Sequence_1",
+        "AHT&Sequence_1",
+        "EndTime&Sequence_1",
+        "TimeDiff&Sequence_1",
+        "Dateintervall&Sequence_1",
+        "Datedifference&Sequence_1",
+        "Date2A&Sequence_1",
+        "Date2&Sequence_1",
+        "Date1&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_StatusRowindex",
+        "io_StatusTrackerDT",
+        "StartTime"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "test1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dateintervalll&Sequence_1",
+        "datedifference&Sequence_1",
+        "Date2A&Sequence_1",
+        "Date2&Sequence_1",
+        "date1final&Sequence_1",
+        "date1&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence3.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Datel&Sequence_1",
+        "Dates&Sequence_1",
+        "Date2&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main(Autosaved).xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "HoowlaUsername&StateMachine_1",
+        "HoowlaPassword&StateMachine_1",
+        "LMSUsername&StateMachine_1",
+        "LMSPassword&StateMachine_1",
+        "TimeDiff&StateMachine_1",
+        "AHT&StateMachine_1",
+        "StartTime&StateMachine_1",
+        "Final_DT&StateMachine_1",
+        "Reportpath&StateMachine_1",
+        "StatusTrackerpath&StateMachine_1",
+        "StatusTracker_DT&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder",
+        "in_config",
+        "Clientcasestatusdetails",
+        "Status",
+        "Comment",
+        "BotStatus",
+        "Remark",
+        "CRDStatus"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LMS Files/LMS Data Extraction Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LMS Charge Registration Performer.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "AHT&Sequence_127",
+        "TimeDiff&Sequence_127",
+        "LMS_SER_Refnumber&Flowchart_1",
+        "LMS_ConveyedAddress&Flowchart_1",
+        "LMS_Postcode&Flowchart_1",
+        "License&Flowchart_1",
+        "LMS_ClientTwo&Flowchart_1",
+        "LMS_Clientone&Flowchart_1",
+        "LMSCASEOPENED&Flowchart_1",
+        "lmsreference&Flowchart_1",
+        "Clientcasestatusdetails&Flowchart_1",
+        "Date1&Flowchart_1",
+        "Endtime&Flowchart_1",
+        "clientnames&Flowchart_1",
+        "HoowlaCaseOpened&Flowchart_1",
+        "delayreason&Flowchart_1",
+        "Documents&Flowchart_1",
+        "Server_IP&Flowchart_1",
+        "Hoowlarefnumber&Flowchart_1",
+        "PropertyAddress&Flowchart_1",
+        "CustmerAddress&Flowchart_1",
+        "Triggered_By&Flowchart_1",
+        "FeeEarnerName&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_StatusRowindex",
+        "io_StatusTrackerDT",
+        "dt_registerdata",
+        "in_LMSReference",
+        "in_Config",
+        "in_LmsClient",
+        "in_LmsPostcode",
+        "TransactionNumber",
+        "Clientcasestatusdetails",
+        "Documents",
+        "CaseStatus",
+        "Status",
+        "Comment",
+        "BotStatus",
+        "Remark",
+        "CRDStatus",
+        "StartTime"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LMS Files/LMS Case details.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "LMS_CaseDetails&Sequence_1",
+        "LMS_ClientNames&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_LMSReference",
+        "in_StatusRowindex",
+        "io_StatusTrackerDT",
+        "Out_LMSPostcode",
+        "LMS_Clientone",
+        "LMS_ClientTwo",
+        "Out_LmsSernumber",
+        "Conveyed_Address"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LMS Files/Opening LMS Case.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "LMSCASEOPENED",
+        "in_LMSReference"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LMS Files/LMS Charge Registration Performer.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_registerdata&Flowchart_1",
+        "TimeDiff&Sequence_128",
+        "AHT&Sequence_128",
+        "LMSCASEOPENED&Flowchart_1",
+        "lmsreference&Flowchart_1",
+        "LMS_SER_Refnumber&Flowchart_1",
+        "LMS_Clientone&Flowchart_1",
+        "LMS_ClientTwo&Flowchart_1",
+        "LMS_Postcode&Flowchart_1",
+        "LMS_ConveyedAddress&Flowchart_1",
+        "Clientcasestatusdetails&Flowchart_1",
+        "Date1&Flowchart_1",
+        "Endtime&Flowchart_1",
+        "clientnames&Flowchart_1",
+        "HoowlaCaseOpened&Flowchart_1",
+        "delayreason&Flowchart_1",
+        "Documents&Flowchart_1",
+        "Server_IP&Flowchart_1",
+        "License&Flowchart_1",
+        "Hoowlarefnumber&Flowchart_1",
+        "PropertyAddress&Flowchart_1",
+        "CustmerAddress&Flowchart_1",
+        "Triggered_By&Flowchart_1",
+        "FeeEarnerName&Flowchart_1",
+        "TimeDiff&Sequence_127",
+        "AHT&Sequence_127"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_LMSReference",
+        "in_Config",
+        "in_LmsClient",
+        "in_LmsPostcode",
+        "TransactionNumber",
+        "Clientcasestatusdetails",
+        "StartTime",
+        "io_StatusTrackerDT",
+        "in_StatusRowindex"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LMS Files/LMS Home Pages.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hoowla Files/Hoowla service reference number search.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "rowcounter&Sequence_1",
+        "lmsReference&Sequence_1",
+        "dt_servicerreferncenumber&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Out_lmssernumber",
+        "Clientone",
+        "ClientTwo",
+        "Out_LMSpostcode",
+        "Conveyedaddress",
+        "Out_AddWorkflowEXIST",
+        "dt_registerdata",
+        "HoowlaCaseOpened",
+        "Out_lmssernumber1"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hoowla Files/Hoowla postcode _Search.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "rowcounter&Sequence_1",
+        "lmsReference&Sequence_1",
+        "dt_servicerreferncenumber&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Out_lmssernumber",
+        "Clientone",
+        "ClientTwo",
+        "Out_LMSpostcode",
+        "Conveyedaddress",
+        "Out_AddWorkflowEXIST",
+        "dt_registerdata",
+        "HoowlaCaseOpened"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LMS Files/completion documents uploading.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Rowcounter&Sequence_1",
+        "Doc_Name&Sequence_16",
+        "Fileuploadpath&Sequence_1",
+        "ExtractDataTable&Sequence_1",
+        "uploaddata&Sequence_1",
+        "TimeDiff&Sequence_1",
+        "AHT&Sequence_1",
+        "EndTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_StatusTrackerDT",
+        "in_StatusRowindex",
+        "in_Config",
+        "StartTime"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "../Users/lplbot2/Documents/LPL_LMS codes/Charge Registration LMS project/completion documents uploading.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Fileuploadpath&Sequence_1",
+        "ExtractDataTable&Sequence_1",
+        "uploaddata&Sequence_1",
+        "TimeDiff&Sequence_1",
+        "AHT&Sequence_1",
+        "EndTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_StatusTrackerDT",
+        "in_StatusRowindex",
+        "in_Config",
+        "StartTime"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hoowla Files/Hoowla Portal login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "variable1&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Out_HoowlaUsername",
+        "Out_HoowlaPassword",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LMS Files/LMS Portal Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Out_LMSUsername",
+        "OUT_LMSPassword",
+        "in_Config",
+        "dt_registerdata"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hoowla Files/mail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "EndTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "StartTime"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hoowla Files/client validation hoowla.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractedhoowlaclientData&Sequence_1",
+        "outdata1&Sequence_1",
+        "clientrowcounter&Sequence_1",
+        "elementcasecounter&Sequence_1",
+        "clientoneFTname&Sequence_1",
+        "ClientoneMDname&Sequence_1",
+        "ClientoneLTname&Sequence_1",
+        "clienttwoFTname&Sequence_1",
+        "clienttwoMDname&Sequence_1",
+        "clienttwoLTname&Sequence_1",
+        "hoowlasearchclient&Sequence_6",
+        "hoowlasearchAddress&Sequence_6",
+        "HoowlaRowExist&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Out_lmssernumber",
+        "Clientone",
+        "ClientTwo",
+        "Out_LMSpostcode",
+        "Conveyedaddress",
+        "Hoowlacaseopened"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Hoowla Files/Deleting uploaded documents.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "filepath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

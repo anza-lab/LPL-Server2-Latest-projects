@@ -1,0 +1,319 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DT_LMSdata&Sequence_17",
+        "BuildHeaders_FR&Sequence_35",
+        "DateBuildDT&Sequence_35",
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strReferenceLMS&Sequence_28",
+        "ReadListData&Sequence_26",
+        "RowCounter&Sequence_24",
+        "Extract_LPL_Case_Data&Sequence_24",
+        "ArrDeleteExcel&Sequence_24",
+        "SecureHOOWLApwd&Sequence_9",
+        "SecureLMSpwd&Sequence_9",
+        "Is_LMSOpened&Sequence_14",
+        "DT_LMSdata&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "In_LMS_Reference&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Transaction_Number",
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Assign case handler_Performer.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "Transaction_Number",
+        "In_LMSReference",
+        "Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "LPL_LMS.Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SecureLMSpwd&Flowchart_1",
+        "SecureHOOWLApwd&Flowchart_1",
+        "Config&Flowchart_1",
+        "ReadData&Flowchart_1",
+        "Extract_LPL_Case_Data&Flowchart_1",
+        "RowCounter&Flowchart_1",
+        "counter&Flowchart_1",
+        "NextCounter&Flowchart_1",
+        "CaseSelector&Flowchart_1",
+        "SplitChar&Flowchart_1",
+        "vOutput&Flowchart_1",
+        "rSpace&Flowchart_1",
+        "ConveyedOutput&Flowchart_1",
+        "LMSClientName&Flowchart_1",
+        "LMSConveyedAddress&Flowchart_1",
+        "HoowlaAddressOUT&Flowchart_1",
+        "SplitHoowlaAddr&Flowchart_1",
+        "HoowlaAddresOutput&Flowchart_1",
+        "RemoveSpace&Flowchart_1",
+        "ConveyedOutputA&Flowchart_1",
+        "HoowlaCase&Flowchart_1",
+        "ProprioterName&Flowchart_1",
+        "ProprioterNameB&Flowchart_1",
+        "ProprioterNameA&Flowchart_1",
+        "HoowlaCaseB&Flowchart_1",
+        "HoowlaCaseA&Flowchart_1",
+        "DocumentDownld&Flowchart_1",
+        "SplitHoowlaAddrHold&Flowchart_1",
+        "HoowlaAddressOUThold&Flowchart_1",
+        "HoowlaAddresOutputHold&Flowchart_1",
+        "ExcelCounter&Flowchart_1",
+        "refereNumAA&Flowchart_1",
+        "refereNumA&Flowchart_1",
+        "refereNumB&Flowchart_1",
+        "refereNum&Flowchart_1",
+        "FinalReference&Flowchart_1",
+        "DownldCounter&Flowchart_1",
+        "Conveyed_Address&Flowchart_1",
+        "AddWorkflowExist&Flowchart_1",
+        "DocumentDownCount&Flowchart_1",
+        "NameOut&Flowchart_1",
+        "SplitCharName&Flowchart_1",
+        "CNameOut&Flowchart_1",
+        "CNameOutA&Flowchart_1",
+        "ReplaceCNameA&Flowchart_1",
+        "ServicerRefer&Flowchart_1",
+        "ServicerReferOUT&Flowchart_1",
+        "LMSPostcode&Flowchart_1",
+        "ReplaceCNameOUT&Flowchart_1",
+        "Green_MortgageOffer&Flowchart_1",
+        "ReplaceCNameServicer&Flowchart_1",
+        "DT_LMSdata&Flowchart_1",
+        "GreenMortgage&Flowchart_1",
+        "strReferenceLMS&Flowchart_1",
+        "ExtractDocsDwnld&Flowchart_1",
+        "LMSDocsOut&Flowchart_1",
+        "DocsCounter&Flowchart_1",
+        "ReadListData&Flowchart_1",
+        "DocsDataPostcode&Flowchart_1",
+        "MarkAsDone_Postcode&Flowchart_1",
+        "MarkDone&Flowchart_1",
+        "MarkAsDone&Flowchart_1",
+        "AddItem_Postcode&Flowchart_1",
+        "StartTime&Flowchart_1",
+        "ClientOne&Flowchart_1",
+        "ClientTwo&Flowchart_1",
+        "CNameBa&Flowchart_1",
+        "CNameOutB&Flowchart_1",
+        "TimeDiff&Flowchart_1",
+        "AHT&Flowchart_1",
+        "EndTime&Flowchart_1",
+        "StrDOCdownld&Sequence_1204",
+        "MarkDone&Sequence_1205",
+        "MarkAsDone&Sequence_1205",
+        "refereNum&Sequence_1206",
+        "refereNum&Sequence_1207"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Transaction_Number",
+        "Conveyed_Address",
+        "Try_Hoowla_Case",
+        "LMSPostcode",
+        "ReplaceCNameServicer",
+        "ReadDataExcel",
+        "EXcelCount",
+        "DateFinal",
+        "TriggerBy",
+        "License",
+        "FeeEarnerName",
+        "Config",
+        "In_LMSReference"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "client validation hoowla.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractedhoowlaclientData&Sequence_1",
+        "outdata1&Sequence_1",
+        "clientrowcounter&Sequence_1",
+        "elementcasecounter&Sequence_1",
+        "clientoneFTname&Sequence_1",
+        "ClientoneMDname&Sequence_1",
+        "ClientoneLTname&Sequence_1",
+        "clienttwoFTname&Sequence_1",
+        "clienttwoMDname&Sequence_1",
+        "clienttwoLTname&Sequence_1",
+        "hoowlasearchclient&Sequence_6",
+        "hoowlasearchAddress&Sequence_6",
+        "HoowlaRowExist&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Out_lmssernumber",
+        "Clientone",
+        "ClientTwo",
+        "Out_LMSpostcode",
+        "Conveyedaddress",
+        "Hoowlacaseopened"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/SetTransactionStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueRetry&Sequence_17",
+        "ScreenshotPath&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_BusinessException",
+        "in_TransactionField1",
+        "in_TransactionField2",
+        "in_TransactionID",
+        "in_SystemException",
+        "in_Config",
+        "in_TransactionItem",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "io_ConsecutiveSystemExceptions"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tests/GetTransactionDataTestCase.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Config&Sequence_1",
+        "TransactionNumber&Sequence_1",
+        "TransactionItem&Sequence_1",
+        "VerificationOutput&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Tests/ProcessTestCase.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Config&Sequence_1",
+        "TransactionItem&Sequence_1",
+        "TransactionNumber&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "LMSPostcode&Sequence_1",
+        "LMSConveyedAddress&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
